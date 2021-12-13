@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EZv2qBJipG3fQXOHM1hcluyVFYqAy2TA1e7AX81iVMaGNcaW3A6LOPlGMug9JP9t+LMRTDunTpZLJ2IyE1JbNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\FormsAndProcessing\\FormsAndProcessing\\FormsAndProcessing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

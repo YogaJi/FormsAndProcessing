@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <form method="post">
+        <label>Set Date:</label>
+        <input type="date" asp-for="Dates" /><br />
+        <label>Number of dates:</label>
+        <input type="number" asp-for="NumOfDate" /><br />
+        <input type="submit" name="submit" />
+    </form>
+    <br />
+    <br />
+    @if (ModelState.IsValid)
+    {
+        <section>
+            <h1>Result</h1>
+            <div>
+                <p>@Convert.ToString(string.Format("{0:yyyy/MM/dd}", Model.NewDate))</p>
+                <!-- <p>@Model.NewDate</p>/-->
+            </div>
+
+        </section>
+    }
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+
